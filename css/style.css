@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    filter: blur(34px);
+}
+
+.r-box {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px 20px 3px rgba(0,0,0,.4);
+}
+
+.r-box .r-img {
+    width: 550px;
+    height: 100%;
+    border-radius: 5px 5px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    background-color: #bd6ea6;
+    transition: left .3s ease-out,
+                right .3s ease-out;
+}
